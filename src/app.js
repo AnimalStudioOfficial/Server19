@@ -16,7 +16,7 @@ app.use(express.static(path.join(__dirname, '..', 'public')));
 
 // Routes
 app.use('/todos', todosRouter);
-app.use('/data', todosRouter);
+app.use('/data', dataRouter);
 
 
 module.exports = app;
